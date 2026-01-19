@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Dar.<span class="highlight">Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <main class="container">
+        <div class="grid-2">
+            <div>
+                <h1>Let's <span class="highlight">Collaborate</span></h1>
+                <p>Whether you need a tutor, help with an assignment, or want to discuss a software project, I'm open to opportunities.</p>
+                
+                <div style="margin-top: 2rem;">
+                    <div class="card" style="margin-bottom: 1rem; display: flex; align-items: center; gap: 1rem;">
+                        <i class="fas fa-envelope fa-2x highlight"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p style="margin:0;">darmenthavasingh@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="display: flex; align-items: center; gap: 1rem;">
+                        <i class="fab fa-linkedin fa-2x highlight"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p style="margin:0;">linkedin.com/in/darmendren-thava-singh-21b6a9274</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Form Mockup -->
+            <form class="card">
+                <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Name</label>
+                    <input type="text" style="width: 100%; padding: 0.8rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: white; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Email</label>
+                    <input type="email" style="width: 100%; padding: 0.8rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: white; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem;">Message</label>
+                    <textarea rows="4" style="width: 100%; padding: 0.8rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: white; border-radius: 5px;"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
