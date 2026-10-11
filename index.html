@@ -14,7 +14,7 @@
 
     <!-- Navigation -->
     <nav>
-        <div class="logo">Dar.<span class="highlight">Portfolio</span></div>
+        <div class="logo">Dev.<span class="highlight">Portfolio</span></div>
         <ul class="nav-links">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -28,23 +28,23 @@
 
     <!-- Main Content -->
     <main class="container">
-        <section class="grid-2">
+        <!-- Replaced grid-2 with a centered, typography-focused layout -->
+        <section style="text-align: center; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 65vh;">
             <div class="hero-text">
-                <p class="highlight" id="greeting">Hello</p>
-                <h1>Self-Sufficient <br> Software <span class="highlight">Developer</span></h1>
-                <p>
-                    My name is Darmendren. I am passionate about building safe cyberspace environments and high-efficiency systems. 
+                <p class="highlight" id="greeting" style="font-size: 1.2rem; margin-bottom: 1rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">Hello</p>
+                
+                <h1 style="font-size: clamp(3rem, 5vw, 5rem); line-height: 1.2; margin-bottom: 1.5rem;">
+                    Self-Sufficient <br> Software <span class="highlight">Developer</span>
+                </h1>
+                
+                <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 2rem auto;">
+                    Passionate about building safe cyberspace environments and high-efficiency systems. 
                     Currently studying Software Engineering at UTeM with a background in Helpdesk Development.
                 </p>
-                <div style="margin-top: 2rem;">
+                
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                     <a href="contact.html" class="btn">Get in Touch</a>
-                    <a href="experience.html" class="btn" style="background: transparent; border: 1px solid var(--accent-primary); margin-left: 10px;">View Work</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="img-frame">
-                    <!-- REPLACE WITH YOUR IMAGE -->
-                    <img src="image1.jpg" alt="Portrait of Developer"> 
+                    <a href="experience.html" class="btn" style="background: transparent; border: 2px solid var(--glass-border); color: var(--text-primary);">View Work</a>
                 </div>
             </div>
         </section>
